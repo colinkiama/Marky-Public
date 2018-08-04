@@ -13,7 +13,7 @@ namespace Marky.Core
     {
         // This method allows you to measure the size of text. This means enables calculations that allow you to add line numbers to your
         // app. Even with text wrapping!
-        // Important Note: Margins effect the width and height of the measurements.
+        // Important Note: Margins affect the width and height of the measurements.
         public static Size MeasureTextSize(string text, CanvasTextFormat textFormat, float limitedToWidth = 0.0f, float limitedToHeight = 0.0f)
         {
             var device = CanvasDevice.GetSharedDevice();
